@@ -1,0 +1,57 @@
+body{
+    background-image:url("https://images.unsplash.com/photo-1517856713891-215e57a13c0d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=60") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    padding: 0; 
+    margin: 0;
+    height: 100%;
+    padding-top: 20px;
+}
+
+#h1{
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+    font-size: 80px;
+    
+    font-weight: 900;
+    text-shadow: 5px 5px 10px blue;
+}
+
+.input-one,.input-two{
+    display: block;
+    margin: 5px auto;
+    border-radius: 10px;
+}
+
+.div-result{
+    margin-top: 50px;
+    width: 200px;
+    height: 180px;
+    display:block;
+    margin: auto;
+    background-image: url("https://cdn.pixabay.com/photo/2018/02/12/04/09/hearts-3147400_1280.png"  
+    );
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px; 
+}
+
+.result{
+    position: relative;
+    top: 60%;
+    font-weight: 900;
+    text-shadow: 5px 5px 10px rgb(242, 243, 241);
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem;
+}
+
+.btn{
+    position: relative;
+    left: 44%;
+    margin: 10px;
+    --bs-btn-padding-y: 0.25rem;
+    --bs-btn-padding-x: 0.5rem;
+    --bs-btn-font-size: 0.75rem;
+}
